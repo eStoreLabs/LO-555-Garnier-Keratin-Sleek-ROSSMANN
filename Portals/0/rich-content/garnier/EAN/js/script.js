@@ -1,6 +1,6 @@
 (() => {
   if (!document.querySelector('.swiper1.swiper-initialized')) {
-    const swiper = new Swiper('.es-swiper1', {
+    const swiper = new Swiper('#es-garnier .es-swiper1', {
       direction: 'horizontal',
       loop: false,
 
